@@ -1,0 +1,19 @@
+.education {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.education li {
+    margin-bottom: 1rem;
+}
+
+.education li .period {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
